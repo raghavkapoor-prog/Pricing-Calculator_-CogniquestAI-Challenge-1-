@@ -1,0 +1,44 @@
+/* PublicTool.css */
+.public-tool-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .public-tool-container h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .public-tool-container .components-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .public-tool-container .component-item {
+    flex: 1 1 calc(33.33% - 15px);
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .public-tool-container .component-item:hover {
+    background: #f1f1f1;
+  }
+  
+  .public-tool-container .summary {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e9ecef;
+    border-radius: 5px;
+  }
+  

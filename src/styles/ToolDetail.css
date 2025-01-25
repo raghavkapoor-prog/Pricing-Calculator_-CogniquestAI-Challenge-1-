@@ -1,0 +1,45 @@
+/* ToolDetails.css */
+.tool-details-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tool-details-container h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .tool-details-container .section {
+    margin-bottom: 20px;
+  }
+  
+  .tool-details-container .section input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+  }
+  
+  .tool-details-container button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background: #17a2b8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .tool-details-container button:hover {
+    background: #138496;
+  }
+  
